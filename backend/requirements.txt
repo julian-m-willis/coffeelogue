@@ -1,0 +1,43 @@
+# Core Framework - pin important versions
+fastapi>=0.100.0
+uvicorn[standard]
+
+# CrewAI for agentic logic - pin these as they're critical
+crewai>=0.40.0
+crewai-tools
+
+# OpenAI and LLM dependencies
+openai
+langchain
+langchain-openai
+
+# Database (SQLAlchemy + async support)
+sqlalchemy
+alembic
+asyncpg  # PostgreSQL async driver
+aiosqlite  # SQLite async driver (for development)
+
+# Pydantic for data validation
+pydantic
+pydantic-settings
+
+# HTTP client
+httpx
+aiofiles
+
+# Audio processing for voice logs
+speechrecognition
+pydub
+
+# Environment and configuration
+python-dotenv
+python-multipart
+
+# Development and testing
+pytest
+pytest-asyncio
+black
+flake8
+
+# Logging and monitoring
+loguru
